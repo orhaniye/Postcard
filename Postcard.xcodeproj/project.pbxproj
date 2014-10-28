@@ -13,6 +13,8 @@
 		D67984CA19FEEE8400E0C3AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67984C919FEEE8400E0C3AA /* Images.xcassets */; };
 		D67984CD19FEEE8400E0C3AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67984CB19FEEE8400E0C3AA /* LaunchScreen.xib */; };
 		D67984D919FEEE8400E0C3AA /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67984D819FEEE8400E0C3AA /* PostcardTests.swift */; };
+		D67984E319FEF23A00E0C3AA /* spiderman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D67984E219FEF23A00E0C3AA /* spiderman.jpg */; };
+		D67984E519FEF25900E0C3AA /* amsterdam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D67984E419FEF25900E0C3AA /* amsterdam.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D67984D219FEEE8400E0C3AA /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67984D719FEEE8400E0C3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D67984D819FEEE8400E0C3AA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		D67984E219FEF23A00E0C3AA /* spiderman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spiderman.jpg; path = ../../../../Downloads/spiderman.jpg; sourceTree = "<group>"; };
+		D67984E419FEF25900E0C3AA /* amsterdam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amsterdam.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		D67984C019FEEE8400E0C3AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D67984E419FEF25900E0C3AA /* amsterdam.jpg */,
+				D67984E219FEF23A00E0C3AA /* spiderman.jpg */,
 				D67984C119FEEE8400E0C3AA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67984E519FEF25900E0C3AA /* amsterdam.jpg in Resources */,
 				D67984C819FEEE8400E0C3AA /* Main.storyboard in Resources */,
 				D67984CD19FEEE8400E0C3AA /* LaunchScreen.xib in Resources */,
 				D67984CA19FEEE8400E0C3AA /* Images.xcassets in Resources */,
+				D67984E319FEF23A00E0C3AA /* spiderman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
